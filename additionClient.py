@@ -6,7 +6,7 @@ from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
 from pygen.addition import AdditionService
 
-
+# add numbers
 try:
     transport = TSocket.TSocket('localhost', 30303)
     transport = TTransport.TBufferedTransport(transport)
